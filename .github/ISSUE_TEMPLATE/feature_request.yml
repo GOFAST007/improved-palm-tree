@@ -1,0 +1,23 @@
+name: Feature request
+description: Request a new functionnality
+title: "[Feature]: "
+labels: [feature-request, triage]
+body:
+  - type: markdown
+    attributes:
+      value: |
+        Thanks for taking the time to fill out this feature request!
+  - type: input
+    id: demo-url
+    attributes:
+      label: Demo URL
+      description: A link where we can see a similar feature
+      placeholder: ex. https://example.com
+    validations:
+      required: false
+  - type: textarea
+    id: description
+    attributes:
+      label: Describe the feature
+    validations:
+      required: true
